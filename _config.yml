@@ -82,9 +82,13 @@ analytics:
 author:
   name             : "Prajwal Singhania"
   avatar           : "profile_picture.jpg"
-  bio              : "Analyst - Trading Systems, AlphaGrep Securities | Integrated Dual-Degree (B.Tech.(Hons.) + M.Tech.) in Computer Science and Engineering, IIT Kharagpur"
+  bio              : "<q><i>You miss 100 percent of the shots you don’t take.</i></q> <cite>- Wayne Gretzky</cite>"
   location         : "Mumbai, India"
   employer         : "AlphaGrep Securities"
+  jobrole          : "Analyst - Trading Systems"
+  education_degree : "Dual-Degree [B.Tech.+M.Tech.]"
+  education_major  : "Computer Sc. & Engineering,"
+  college          : "IIT Kharagpur"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=zz6yeyYAAAAJ"
   email            : "prajwal1210@gmail.com"
@@ -309,3 +313,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
