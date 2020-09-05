@@ -22,11 +22,17 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author.employer and author.jobrole %}
+        <li><i class="fa fa-fw fa-briefcase" aria-hidden="true" ></i> {{ author.jobrole }}, <br>
+        <i class="fa fa-fw fa-briefcase" aria-hidden="true" style="visibility: hidden;"></i> {{ author.employer }} </li>
       {% endif %}
-      {% if author.employer %}
-        <li><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% if author.education_degree and  author.education_major and author.college %}
+        <li><i class="fa fa-fw fa-university" aria-hidden="true" ></i> {{ author.education_degree }} <br>
+        <i class="fa fa-fw fa-university" aria-hidden="true" style="visibility: hidden;"></i> {{ author.education_major }} <br>
+        <i class="fa fa-fw fa-university" aria-hidden="true" style="visibility: hidden;"></i> {{ author.college }} </li>
+      {% endif %}
+      {% if author.location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true" overflow-wrap="normal"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
