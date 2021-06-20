@@ -38,10 +38,22 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.startdate and page.enddate %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ "Duration:" }}</strong> <time datetime="{{ page.startdate | date_to_xmlschema }}">{{ page.startdate | default: "1900-01-01" | date: "%B %d, %Y" }}</time> - <time datetime="{{ page.enddate | date_to_xmlschema }}">{{ page.enddate | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          {% if page.location %}
+          <p class="page__location"><strong><i class="fa fa-fw fa-location-arrow" aria-hidden="true"></i> {{ "Location:" }}</strong> <i>{{ page.location }}</i></p>
+          {% endif %}
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        
+
+        {% if page.skills %}
+          <p class="page__skills"><strong><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> {{ "Technologies Used:" }}</strong>
+          {% for post in page.skills reversed %}
+            
+          {% endfor %}
+          </p>
+        {% endif %}
              
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>

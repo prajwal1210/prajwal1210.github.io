@@ -4,7 +4,6 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 locale                   : "en-US"
 title                    : "Prajwal Singhania"
@@ -20,6 +19,8 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
+enable_project_categories: true
+enable_mansory           : true
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -191,6 +192,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -248,6 +252,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects 
+    values:
+      layout: single
+      author_profile: true
+      share: false 
 
 # Sass/SCSS
 sass:
@@ -294,6 +306,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+skill_archive:
+  type: liquid
+  path: /skills/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

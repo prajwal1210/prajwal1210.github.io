@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Prajwal (प्रज्वल) and I graduated from the Indian Institute of Technology, Kharagpur[LINK] with a Dual Degree (B.Tech.(Hons.) + M.Tech.) in the field of Computer Science & Engineering in 2020. I have been working full-time as a Trading System Analyst at AlphaGrep Securities[LINK], Pvt. Ltd. based in Mumbai (India) since 6<sup>th</sup> July, 2020.
+Hi! My name is Prajwal (प्रज्वल) and I graduated from the Indian Institute of Technology, Kharagpur[LINK] with a Dual Degree (B.Tech.(Hons.) + M.Tech.) in the field of Computer Science & Engineering in 2020. I have been working full-time as a Trading System Analyst at AlphaGrep Securities[LINK], Pvt. Ltd. based in Mumbai (India) since 6<sup>th</sup> July, 2020. 
+
+*Technincal Interests:*  Computer Systems, Computer Architecture, Machine Learning, Deep Learning
+
+During my time at university, I have had the opportunity to gain a lot of exposure through a diverse set of personal and professional experiences. In the summer of 2017, I interned at the Information and Communications Lab, Industrial Technology Research Institute in Hsinchu, Taiwan. This was a transformative learning experience for me, where I not only familiarized myself with the basics of deep learning, but also got the opportunity to work in an internationally diverse environment with interns from all around the globe fostering my interpersonal skills and broadening my viewpoints.
+
+In the summer of 2018, I was one of the 20 people selected for the prestigious IUSSTF-Viterbi Program. Through this program, I got the opportunity to work as a summer research intern under Dr. Meisam Razaviyayn in the Viterbi School of Engineering, University of Southern California. I decided to explore the field of deep learning in greater theoretical detail under him working on binarized neural networks.  
 
 A data-driven personal website
 =========

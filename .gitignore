@@ -1,2 +1,9 @@
 _site/
+.bundle/
+.sass-cache/
+*.swp
+.vendor/
+Gemfile.lock
+*.*~
+*.bib
 
