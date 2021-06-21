@@ -1,12 +1,12 @@
 ---
 title : Tower Research Capital
-description: I was an intern in the Risk Technology Team at Tower Research Capital Pvt. Ltd. during the summer of 2019. Click to find out more about my work there. 
+description: I was an intern in the Risk Technology Team at Tower Research Capital Pvt. Ltd. during the summer of 2019. My work involved developing end-to-end tools and systems to facilitate in risk analysis for trading teams and risk managers. Click to find out more about my work there. 
 img: /images/tower.png
 importance: 1
 category : internships
 collection: projects
 type: "Projects"
-permalink: /projects/2019-07-14-internship-1
+permalink: /projects/2019-internship-tower-research
 startdate: 2019-05-14
 enddate: 2019-07-14
 location: "Tower Research Capital Pvt Ltd, Gurgaon, India"
