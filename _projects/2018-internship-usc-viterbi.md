@@ -11,7 +11,7 @@ startdate: 2018-05-17
 enddate: 2019-07-12
 location: "Viterbi School of Engineering, University of Southern California, LA, California, USA"
 category_nolink : true
-skills: ["C++", "Bash", "Flask", "HTML/CSS", "Javascript"]
+skills: ["Neural Networks", "Theoritical ML", "PyTorch", "TensorFlow"]
 ---
 
 As one of the 18 people across India to be selected for IUSSTF-Viterbi Summer Research Program, I spent my summer of 2018 working under the guidance of Prof. Meisam Razaviyayn and did the following:

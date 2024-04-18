@@ -48,9 +48,11 @@ layout: default
         {% endif %}
 
         {% if page.skills %}
-          <p class="page__skills"><strong><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> {{ "Technologies Used:" }}</strong>
+          <p class="page__skills"><strong><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> {{ "Skills:" }}</strong>
+          {% assign delim = "" %}
           {% for post in page.skills reversed %}
-            
+            <span class="page__skills-item">{{ delim }}{{ post }} </span> 
+            {% assign delim = ", " %}
           {% endfor %}
           </p>
         {% endif %}

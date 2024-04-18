@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Brief Bio"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Prajwal (प्रज्वल) and I graduated from the Indian Institute of Technology, Kharagpur[LINK] with a Dual Degree (B.Tech.(Hons.) + M.Tech.) in the field of Computer Science & Engineering in 2020. I have been working full-time as a Trading System Analyst at AlphaGrep Securities[LINK], Pvt. Ltd. based in Mumbai (India) since 6<sup>th</sup> July, 2020. 
+I am Computer Science PhD student at the [University of Maryland - College Park](https:://umd.edu) working under the supervision of [Dr. Abhinav Bhatele](https://www.cs.umd.edu/~bhatele/) in the [PSSG Lab](https://pssg.cs.umd.edu/). I am also a [Flagship Fellow](https://gradschool.umd.edu/funding/student-fellowships-awards/flagship-fellowship) at UMD. Prior to joining UMD, I worked at [AlphaGrep Securities Pvt. Ltd.](https://www.alpha-grep.com/) for 3 years (Last Role: Senior Associate). I graduated top of my class from the [Indian Institute of Technology, Kharagpur](https://www.iitkgp.ac.in/) with a Dual Degree (B.Tech.(Hons.) + M.Tech.) in Computer Science & Engineering in 2020.
 
-*Technincal Interests:*  Computer Systems, Computer Architecture, Machine Learning, Deep Learning
+My current research focuses on the intersection of High-Perfomance Computing, Computer Systems and Deep Learning. Particularly, I am looking to build optimized and scalable systems for training and inferencing deep learning models.
+
+
+<!---
 
 During my time at university, I have had the opportunity to gain a lot of exposure through a diverse set of personal and professional experiences. In the summer of 2017, I interned at the Information and Communications Lab, Industrial Technology Research Institute in Hsinchu, Taiwan. This was a transformative learning experience for me, where I not only familiarized myself with the basics of deep learning, but also got the opportunity to work in an internationally diverse environment with interns from all around the globe fostering my interpersonal skills and broadening my viewpoints.
 
@@ -54,3 +57,4 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+-->

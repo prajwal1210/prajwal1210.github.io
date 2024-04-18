@@ -11,7 +11,7 @@ startdate: 2017-05-08
 enddate: 2019-07-14
 location: "Industrial Technology Research Institute, Hsinchu, Taiwan"
 category_nolink : true
-skills: ["C++", "Bash", "Flask", "HTML/CSS", "Javascript"]
+skills: ["CNNs", "TensorFlow", "Pytorch"]
 ---
 
 As a summer intern in the Information and Communications Lab of Taiwan's most prestigious R&D Institute, I did the following:

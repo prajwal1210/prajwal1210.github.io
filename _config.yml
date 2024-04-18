@@ -16,7 +16,7 @@ repository               : "prajwal1210/prajwal1210.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 enable_project_categories: true
@@ -82,17 +82,17 @@ analytics:
 # Site Author
 author:
   name             : "Prajwal Singhania"
-  avatar           : "profile_picture.jpg"
+  avatar           : "profile_picture.jpeg"
   bio              : "<q><i>You miss 100 percent of the shots you don’t take.</i></q> <cite>- Wayne Gretzky</cite>"
-  location         : "Mumbai, India"
-  employer         : "AlphaGrep Securities"
-  jobrole          : "Analyst - Trading Systems"
+  location         : "College Park, MD"
+  employer         : "University of Maryland, College Park"
+  jobrole          : "PhD Student / Graduate Assistant"
   education_degree : "Dual-Degree [B.Tech.+M.Tech.]"
   education_major  : "Computer Sc. & Engineering,"
   college          : "IIT Kharagpur"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=zz6yeyYAAAAJ"
-  email            : "prajwal1210@gmail.com"
+  email            : "prajwal1210[at]gmail[dot]com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
